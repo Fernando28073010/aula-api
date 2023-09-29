@@ -11,7 +11,7 @@ import model.Produto;
 @Repository
 public class ProdutoRepository {
 	
-	private List<Produto> produtos new ArrayList<Produto>();
+	private List<Produto> produtos = new ArrayList<Produto>();
     private Integer ultimoId = 0;
     
     public List<Produto> obterTodos (){
